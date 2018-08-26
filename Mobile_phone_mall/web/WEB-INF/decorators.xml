@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<decorators defaultdir="/frame/">
+    <!-- 先定义不过滤的页面，即排除页面 -->
+    <excludes>
+        <pattern>/css/*</pattern>
+        <pattern>/js/*</pattern>
+    </excludes>
+
+    <!-- 定义需要修饰的页面 -->
+    <decorator name="book" page="frame_main.jsp">
+        <pattern>/jsp/*</pattern>
+    </decorator>
+
+</decorators>

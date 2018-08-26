@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Mobile_phone_mall:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Mobile_phone_mall_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Mobile_phone_mall/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Mobile_phone_mall" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="sitemesh-2.4.2" />
+          <element id="library" level="project" name="jackson-annotations-2.5.0" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="sqljdbc4" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.26" />
+          <element id="library" level="project" name="commons-fileupload-1.2.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
